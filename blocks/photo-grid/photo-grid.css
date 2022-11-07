@@ -1,0 +1,16 @@
+.photo-grid {
+    display: grid;
+    margin: 0 auto 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .photo-grid {
+        width: 1184px;
+        height: 671px;
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: repeat(4, 284px);
+        gap: 16px;
+    }    
+}
+
+

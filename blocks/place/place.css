@@ -1,0 +1,14 @@
+.place {
+  display: grid;
+  padding: 0;
+}
+
+@media screen and (min-width: 1280px) {
+    .place {
+        min-height: 584px;
+        min-width: 984px;
+        margin: 0 auto 80px;
+        grid-template-rows: 152px 145px 315px;
+        grid-template-columns: 460px 500px;
+    }
+}

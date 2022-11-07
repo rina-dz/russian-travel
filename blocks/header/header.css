@@ -1,7 +1,11 @@
+@media screen and (min-width: 1280px) {
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: end;
   width: 1184px;
   height: 52px;
-  margin: 28px 48px 0;
+  margin: 0 auto 0;
+  position: relative;
+} 
 }
