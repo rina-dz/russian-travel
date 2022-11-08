@@ -3,6 +3,12 @@
     font-size: 18px;
     line-height: 22px;
     color: #fff;
+    align-self: end;
+    transition: opacity 0.5s;
+}
+
+.place__website__link:hover {
+    opacity: 30%;
 }
 
 @media screen and (min-width: 1280px) {

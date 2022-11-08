@@ -1,0 +1,15 @@
+.cover {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 1184px;
+        height: 740px;
+        margin: 0 auto 92px;
+    }
+}

@@ -1,14 +1,20 @@
 .place {
   display: grid;
   padding: 0;
+  grid-template-areas:
+  "title website"
+  "margin margin"
+  "image first-paragraph"
+  "image second-paragraph";
 }
 
 @media screen and (min-width: 1280px) {
     .place {
         min-height: 584px;
-        min-width: 984px;
+        width: 984px;
         margin: 0 auto 80px;
-        grid-template-rows: 152px 145px 315px;
-        grid-template-columns: 460px 500px;
+        grid-template-rows: 152px 48px auto auto;
+        grid-template-columns: 460px 484px;
+        column-gap: 48px;
     }
 }

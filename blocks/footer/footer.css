@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+@media screen and (min-width:1280px) {
+    .footer {
+        width: 1184px;
+        height: 18px;
+        margin: 0 auto 0;
+    }
+}
