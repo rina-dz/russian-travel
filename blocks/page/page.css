@@ -23,13 +23,16 @@
   .page {
     padding: 28px 0 24px;
 }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .page {
     padding: 28px 0 24px;
 }
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .page {
     padding: 16px 0 24px;
+}
 }

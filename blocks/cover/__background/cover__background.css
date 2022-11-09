@@ -6,9 +6,3 @@
     position: absolute;
     background-image: url(/images/cover-trains.jpg);
 }
-
-@media screen and (min-width: 1280px) {
-    .cover__background {
-        
-    }
-}
