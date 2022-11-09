@@ -2,16 +2,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 29.34px;
-    margin: 0;
-}
-
-.place__paragraph:nth-child(odd) {
-    grid-area: second-paragraph;
-    
-}
-
-.place__paragraph:nth-child(even) {
-    grid-area: first-paragraph;
+    margin: 0 0 26px;
 }
 
 

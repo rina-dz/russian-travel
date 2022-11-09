@@ -10,10 +10,26 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   background: #2A2C2F;
+  overflow: hidden;
 }
 
 @media screen and (min-width: 1280px) {
 .page {
-  padding: 28px 0;
+  padding: 28px 0 24px;
 }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .page {
+    padding: 28px 0 24px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page {
+    padding: 28px 0 24px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page {
+    padding: 16px 0 24px;
 }
