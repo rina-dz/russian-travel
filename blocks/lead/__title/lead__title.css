@@ -1,8 +1,8 @@
 .lead__title {
-    font-weight: 900;
-    text-align: center;
-    margin: 0 auto;
-   }
+  font-weight: 900;
+  text-align: center;
+  margin: 0 auto;
+}
 
 
 @media screen and (min-width:1280px) {
@@ -11,7 +11,7 @@
         max-height: 200px;
         font-size: 96px;
         line-height: 100px;
-      }
+    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -20,7 +20,7 @@
         max-height: 200px;
         font-size: 96px;
         line-height: 100px;
-       }
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -29,7 +29,7 @@
         max-height: 200px;
         font-size: 96px;
         line-height: 100px;
-       }
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -38,5 +38,5 @@
         max-height: 88px;
         font-size: 40px;
         line-height: 44px;
-       }
+    }
 }

@@ -1,6 +1,5 @@
-.places {
-    
-}
+.places {}
+
 
 @media screen and (min-width: 1280px) {
     .places {
@@ -10,34 +9,38 @@
     }
 }
 
+
 @media screen and (min-width:1280px) {
     .places {
         min-height: 3392px;
         min-width: 984px;
         margin: 92px auto 0;
-        }
- }
+    }
+}
  
+
  @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .places {
         min-height: 3292px;
         min-width: 928px;
         margin: 92px auto 0;
-        }  
- }
+    }  
+}
  
+
  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .places {
         min-height: 2808px;
         min-width: 720px;
         margin: 88px auto 90px;
-        }
- }
+    }
+}
  
+
  @media screen and (min-width: 320px) and (max-width: 767px) {
     .places {
         min-height: 5177px;
         min-width: 320px;
         margin: 64px auto 41px;
-        }
- }
+    }
+}
