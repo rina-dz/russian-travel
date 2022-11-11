@@ -1,22 +1,9 @@
 .intro__text {
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 33px;
-    margin-left: 0;
+    margin: 0 0 33px;
     font-size: 16px;
     line-height: 26.08px;
-}
-
-@media screen and (min-width:1280px) {
-    .intro__text {
-        max-width: 690px;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .intro__text {
-        max-width: 690px;
-       }
+    max-width: 690px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {

@@ -1,67 +1,45 @@
 .place {
   padding: 0;
+  width: min-content;
+  margin: 0 auto 80px;
+  display: grid;
+  grid-template-areas:
+  "title website"
+  "margin margin"
+  "image paragraphs";
+  grid-template-rows: min-content 48px min-content;
+  grid-template-columns: min-content min-content;
 }
 
 @media screen and (min-width: 1280px) {
   .place {
-    min-height: 584px;
-    max-width: 984px;
-    margin: 0 auto 80px;
-    display: grid;
-    grid-template-areas:
-    "title website"
-    "margin margin"
-    "image paragraphs";
-    grid-template-rows: 152px 48px auto;
-    grid-template-columns: 460px 484px;
     column-gap: 48px;
   }
 }
   
-  @media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .place {
-      min-height: 564px;
-      max-width: 984px;
-      margin: 0 auto 80px;
-      display: grid;
-      grid-template-areas:
-      "title website"
-      "margin margin"
-      "image paragraphs";
-      grid-template-rows: 152px 48px auto;
-      grid-template-columns: 460px 484px;
-      column-gap: 32px;
-   }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .place {
+    column-gap: 32px;
   }
+}
   
-  @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .place {
-      min-height: 434px;
-      max-width: 720px;
-      margin: 0 auto 48px;
-      display: grid;
-      grid-template-areas:
-      "title website"
-      "margin margin"
-      "image paragraphs";
-      grid-template-rows: 92px 48px auto;
-      grid-template-columns: 340px 352px;
-      column-gap: 28px;
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .place {
+    margin-bottom: 73px;
+    column-gap: 28px;
   }
-  }
+}
   
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    .place {
-      min-height: 964px;
-      width: 100%;
-      margin: 0 auto 25px;
-      display: grid;
-      grid-template-areas:
-      "title"
-      "website"
-      "image"
-      "paragraphs";
-      grid-template-rows: repeat(4, auto);
-      row-gap: 32px;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .place {
+    width: 100%;
+    margin-bottom: 25px;
+    grid-template-areas:
+    "title"
+    "website"
+    "image"
+    "paragraphs";
+    grid-template-rows: repeat(4, min-content);
+    row-gap: 32px;
   }
-  }
+}

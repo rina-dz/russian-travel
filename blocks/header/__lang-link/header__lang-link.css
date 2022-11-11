@@ -5,32 +5,19 @@
   line-height: 96%;
   font-style: normal;
   text-decoration: none;
+  font-size: 24px;
+  line-height: 96%;
+  transition: opacity 0.5s;
 }
 
-@media screen and (min-width: 1280px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 96%;
-     }
+.header__lang-link:hover {
+  opacity: 80%;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 96%;
-     }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .header__lang-link {
-    font-size: 24px;
-    line-height: 96%;
-     }
-}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 92%;
-     }
+  }
 }
